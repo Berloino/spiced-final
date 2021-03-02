@@ -487,9 +487,8 @@ nav ul li a {
 }
 
 .spinner {
-    height: 100px;
-    width: 100px;
-    background-color: coral;
+    height: 400px;
+    width: 400px;
     animation: spin 3s infinite linear;
 }
 

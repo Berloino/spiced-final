@@ -1,0 +1,16 @@
+.message {
+    position: absolute !important;
+    visibility: hidden;
+    z-index: 10000;
+}
+
+.error-404 {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    color: white;
+    font-size: 2em;
+    line-height: 3em;
+}
