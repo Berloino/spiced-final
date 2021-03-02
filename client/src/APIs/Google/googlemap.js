@@ -38,8 +38,8 @@ const options = {
 };
 
 const mapContainerStyle = {
-    width: "100%", //tryvh 100 40
-    height: "100%",
+    height: "80vh",
+    // width: "100vw",
 };
 
 const googleAPIKey = require("../../../../secrets.json").GOOGLE_API_KEY; // import Google API key from secrets.json
@@ -131,7 +131,7 @@ export default function Maps() {
                             setSelected(marker);
                         }}
                         icon={{
-                            url: `/beer-favicon.ico`,
+                            url: `/beer-favicon.png`,
                             origin: new window.google.maps.Point(0, 0),
                             anchor: new window.google.maps.Point(15, 15),
                             scaledSize: new window.google.maps.Size(30, 30),

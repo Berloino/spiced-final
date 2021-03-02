@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "./Middleware/axios";
-import Uploader from "./Components/uploader";
+// import Uploader from "./Components/uploader";
 import Profile from "./Components/profile";
 import OtherProfile from "./Components/otherProfile";
 import NavigationHeader from "./Components/Navigation/navigationheader";
@@ -232,7 +232,7 @@ export default class App extends React.Component {
                             )}
                         />
 
-                        <Route path="/map" component={Maps} />
+                        <Route path="/maps" render={() => <Maps />} />
                     </div>
                 </BrowserRouter>
             );

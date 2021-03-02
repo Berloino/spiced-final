@@ -1,0 +1,114 @@
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+h1 {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: #281414;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 400px;
+    z-index: 10;
+}
+
+.search input {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.locate {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    z-index: 10;
+}
+.locate img {
+    width: 30px;
+    cursor: pointer;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////*/
+/* ///////////////////      MAPS in googlemap.js               ////////////////////////////////////////////////////*/
+/* /////////////////////////////////////////////////////////////////////*/
+/* /////////////////////////////////////////////////////////////////////*/
+
+/* https://www.w3schools.com/cssref/css_selectors.asp */
+/*
+.mapComponent {
+    border: 3px solid magenta;
+    /*
+    height: "40vh";
+    height: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    */
+    top: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow: hidden;
+    object-fit: cover;
+}
+/*
+.mapComponent code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+/*h1 in Maps */
+/*
+.mapComponent #maptitle {
+    position: relative;
+    top: 1rem;
+    color: burlywood;
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+}
+
+.mapComponent .search {
+    position: relative;
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 10;
+}
+
+.mapComponent .search input {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.mapComponent .locate {
+    position: relative;
+    top: 5rem;
+    background: none;
+    border: none;
+    z-index: 10;
+}
+
+.locate img {
+    width: 30px;
+    cursor: pointer;
+}
+*/

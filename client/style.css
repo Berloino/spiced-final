@@ -511,9 +511,9 @@ nav ul li a {
 
 .mapComponent {
     border: 3px solid magenta;
-    width: "100vw";
-    height: "40vh";
+
     /*
+    height: "40vh";
     height: 100px;
     padding-left: 15px;
     padding-right: 15px;
@@ -547,14 +547,13 @@ nav ul li a {
 .mapComponent .search {
     position: relative;
     top: 5rem;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 100%;
+    transform: translateX(-60%);
     width: 100%;
     z-index: 10;
 }
 
 .mapComponent .search input {
-    padding: 0.5rem;
     font-size: 1.5rem;
 }
 
